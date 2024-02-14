@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 2rem;
+
+}
+.logo{
+    width: 210px;
+    height: 68px;
+}
+@media screen and (max-width: 768px) {
+    .header{
+        padding: 0rem;
+    }
+    .logo {
+       width: 20px;
+       height: 81px;
+    
+    }
+}

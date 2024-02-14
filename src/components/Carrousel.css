@@ -1,0 +1,55 @@
+.carrousel {
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+.main-image {
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.fleche-gauche {
+    position: absolute;
+    left: 10px;
+    top: 40%;
+}
+
+.fleche-droite {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+}
+
+.carrousel span {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    left: 50%;
+}
+@media (max-width: 768px) {
+    .carrousel {
+        width: 100%;
+        height: 225px;
+        position: relative;
+        margin-top: 27px;
+    }
+    
+    .main-image {
+        border-radius: 10px;
+    }
+    
+    .fleche-gauche {
+        width: 24px;
+        height: 24px;
+        top: 50%;
+    }
+    
+    .fleche-droite {
+        width: 24px;
+        height: 24px;
+        top: 50%;
+    }
+}

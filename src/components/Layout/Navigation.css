@@ -1,0 +1,49 @@
+.Navigation {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 0.2rem;
+}
+.Navigation a {
+    color: #FF6060;
+    text-decoration: none;
+   
+    
+}
+.Navigation a:hover {
+    text-decoration: underline;
+}
+
+.Navigation_links {
+ list-style-type: none;
+ padding: 0;
+ display: flex;
+ gap: 3rem;
+}
+.Navigation_links li {
+    margin-right: 20px; 
+    cursor: pointer;
+    color: #FF6060;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.Navigation_links a.active {
+        color: #FF6060;
+        text-decoration: underline;
+      }
+ @media screen and (max-width: 768px){
+    .Navigation{
+        padding: 0px;
+    }
+
+    .Navigation_links li {
+        font-size: 15px;
+        
+    }
+      .Navigation_links a.active{
+        font-size: 15px;
+        
+
+    }
+}

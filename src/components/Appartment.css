@@ -1,0 +1,17 @@
+.appartment {
+    background-image: linear-gradient(to top,#863586,#ff6060);
+    border-radius: 1rem;
+   display: grid;
+   align-items: end;
+   background-size: cover;
+}
+.appartment_subtitle {
+    
+    color: #ffff;
+    margin-inline-start: 0.5rem;
+    margin-block-end: 0.5rem;
+}
+@media screen and (max-width: 768px) {
+   
+   
+}

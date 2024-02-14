@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    height: 185px;
+    max-width: 1440px;
+    margin: auto;
+}
+    
+
+ 
