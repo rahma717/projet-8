@@ -46,4 +46,8 @@
         
 
     }
+    .Navigation_links{
+        gap: 0px;
+        margin-left: 3rem;
+    }
 }

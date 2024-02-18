@@ -1,15 +1,12 @@
 import React from "react"
 import Banner from "../components/Layout/Banner.jsx";
+import BannerLogo from '../assets/bannerApropos.png';
 import Collapse from "../components/Collapse.jsx";
 import './APropos.css';
 
-import BannerLogo from '../assets/bannerApropos.png'
-
 const APropos = () => {
-  
-    return (
-        
-      <main>
+  return (
+        <main>
         <Banner img={BannerLogo} />
         <div className="collapseAboutContainer">
         <Collapse

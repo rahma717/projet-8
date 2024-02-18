@@ -8,8 +8,28 @@
     color: #fff;
     width: 100%;
     height: 185px;
-    max-width: 1440px;
     margin: auto;
+    margin-top: 2rem;
+}
+.footer p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+@media (max-width: 768px){
+.footer p {
+    display: flex;
+justify-content: center;
+text-align: center;
+border-top: 15px;
+font-size: 12px;
+line-height: 17px;
+word-wrap: break-word;
+         }
+.footer img {
+    width: 122px;
+    height: 39px;
+}
 }
     
 

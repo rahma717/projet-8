@@ -6,8 +6,9 @@ function Appartment({ logement }) {
     return (
     <div className="appartment">
     <Link to={`/logement/${logement.id}`}>
-        <img src={logement.cover} alt={logement.title} />
+     <img src={logement.cover} alt={logement.title} />
     <div className="appartment_subtitle">{logement.title}</div>
+   
     </Link>
     </div>
     );

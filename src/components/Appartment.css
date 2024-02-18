@@ -1,17 +1,36 @@
 .appartment {
-    background-image: linear-gradient(to top,#863586,#ff6060);
-    border-radius: 1rem;
+    width: 380px;
+    height: 380px;
    display: grid;
-   align-items: end;
-   background-size: cover;
+   background: linear-gradient(180deg,hsla(0,0%,100%,0),rgba(0,0,0,.7));
+   border-radius: 10px;
+    
+}
+.appartment img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
 .appartment_subtitle {
+    font-size: 18px;
+    width: 50%;
+    margin-inline-start: 0.2rem;
+    margin-block-end: 0.2rem;
+    color: black;
+   
     
-    color: #ffff;
-    margin-inline-start: 0.5rem;
-    margin-block-end: 0.5rem;
 }
 @media screen and (max-width: 768px) {
+    .appartment a {
+        width: 380px;
+        height: 380px; 
+    }
+    .appartment img {
+        position: relative;
+       
+
+    }
    
    
 }

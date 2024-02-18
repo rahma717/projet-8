@@ -1,6 +1,7 @@
 .collapse {
-    padding: 10px;
+    
     margin-bottom: 10px;
+    width: 100%;
    
 }
 
@@ -13,7 +14,7 @@
     border-radius: 10px;
 }
  .collapse_title p {
-     
+        font-size: 18px;
         height: 34px;
         width: 97px;
         margin: 12px 0 0 8px;      
@@ -23,7 +24,7 @@
 .collapse_content {
     background-color: #f6f6f6;
     border-radius: 10px;
-    padding: 4px 15px;
+    padding: 1px 3px 2px 2px;
     margin-bottom: 10px;
     
 }
@@ -35,7 +36,16 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-  }
+    max-height: 0; /* Ajout de la propriété max-height pour l'animation */
+    overflow: hidden;
+    opacity: 0; /* Ajout de l'opacité initiale à 0 */
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.collapse_content-text.active {
+    max-height: 1000px;
+    opacity: 1; /* Ajustez la valeur en fonction de la hauteur maximale attendue */
+}
 .collapse_icon {
     width: 24px;
     height: 13.71px;
@@ -47,5 +57,11 @@
     transform: rotate(180deg);
     width: 24px;
     height: 13px;
-    margin-top: 11px;
+    margin-top: 14px;
+}
+@media (max-width: 768px){
+    .collapse_title{
+        border-radius: 5px;
+        
+    }
 }

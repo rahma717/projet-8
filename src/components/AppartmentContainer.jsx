@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './AppartmentContainer.css'
+import './AppartmentContainer.css';
 import Appartment from './Appartment.jsx';
 
 function AppartmentContainer() {

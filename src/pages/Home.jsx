@@ -8,12 +8,12 @@ import BannerLogo from '../assets/banner.png'
 
 const Home =() =>{
   return (
-    <div>
+    <main>
        
     <Banner img={BannerLogo} text={"Chez vous, partout et ailleurs"} />
     <AppartmentContainer/>
         
-    </div>
+    </main>
   )
 };
 

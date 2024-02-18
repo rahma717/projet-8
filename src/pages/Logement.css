@@ -95,12 +95,15 @@ main h1 {
         font-style: normal;
         font-weight: 500;
         line-height: 142.6%;
+        margin-right: 239px;
     }
 
     .location {
         font-size: 14px;
     }
-
+    .tags {
+        display: flex;
+    }
     .tag {
         width: 48px;
         height: 18px;
@@ -114,7 +117,7 @@ main h1 {
 
     .host-name {
         font-size: 12px;
-        margin-top: 0px;
+      
     }
 
     .rating-content {
@@ -124,7 +127,10 @@ main h1 {
 
 
     .collapses {
-        display: block;
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+        gap: 10px;
     }
     .host-info {
         float: right;

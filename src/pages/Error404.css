@@ -5,7 +5,7 @@
     flex-direction: column;
     padding-bottom: 139px;
     align-items: center;
-    gap: 139px;
+    gap: 90px;
 }
 h1 {
     text-align: center;
@@ -19,16 +19,17 @@ h3 {
     font-weight: 500;
     color: #FF6060;
 }
-span {
+.linkreturnhomepage {
     text-align: center;
     font-size: 18px;
     font-weight: 500;
     color: #FF6060;
+    text-decoration: underline;
    
 }
-span a {
+a {
      color: #FF6060;
-     text-decoration: underline;
+    text-decoration: none;
 }
 @media screen and (max-width: 768px){
     h1{

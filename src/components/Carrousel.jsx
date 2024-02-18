@@ -5,7 +5,6 @@ import rightArrow from '../assets/arrow_right.png'
 
 import './Carrousel.css'
 
- // Importez PropTypes depuis la bibliothèque 'prop-types'
 
 // Définissez la validation PropTypes pour le composant Carrousel
 const Carrousel = ({ pictures = [] }) => {

@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
-import Home from './pages/Home'
 import Header from './components/Layout/Header.jsx';
 import Footer from './components/Layout/Footer.jsx';
 import Error404 from './pages/Error404.jsx';
-
-
+import Home from './pages/Home';
 import APropos from './pages/APropos.jsx';
 import Logement from './pages/Logement.jsx';
 const HeaderFooterLayout = ({ children }) => {
