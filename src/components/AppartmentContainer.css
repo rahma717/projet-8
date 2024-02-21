@@ -1,15 +1,16 @@
 .Appartment_container {
     background-color: #f6f6f6;
-    width: 100%;
+    width: 95%;
     border-radius: 25px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 60px;
     padding: 0px;
     justify-content: space-around;
     overflow: scroll;
     margin-top: 43px;
+    padding: 22px;
    
    
 }
@@ -18,7 +19,9 @@
        justify-content: center;
        background-color: #ffff;
        overflow: hidden;
-       padding-bottom: 30px;
+       padding: 15px 2px;
+       align-items: center;
+       margin: auto;
        
        
     }

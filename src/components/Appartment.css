@@ -1,7 +1,9 @@
 .appartment {
-    width: 380px;
-    height: 380px;
+    position: relative;
+    width: 340px;
+   height: 340px;
    display: grid;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
    background: linear-gradient(180deg,hsla(0,0%,100%,0),rgba(0,0,0,.7));
    border-radius: 10px;
     
@@ -11,26 +13,35 @@
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+    opacity: 0.7;
 }
 .appartment_subtitle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     font-size: 18px;
-    width: 50%;
+    font-weight: 500;
+    max-width: 300px;
+    word-wrap: break-word;
     margin-inline-start: 0.2rem;
     margin-block-end: 0.2rem;
-    color: black;
+    color: #ffff;
+    line-height: 25.67px;
    
     
 }
 @media screen and (max-width: 768px) {
+    .appartment {
+        width: 100%;
+        height: 255px;
+    }
     .appartment a {
-        width: 380px;
-        height: 380px; 
+        width: 100%;
+        height: 255px; 
     }
     .appartment img {
         position: relative;
        
 
-    }
-   
-   
+    }  
 }

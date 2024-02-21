@@ -1,13 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Layout from '../components/Layout/Layout';
 import "./Error404.css";
 
 // composant qui gère la page d'erreur
 
 const Error404 = () => {
   return (
-    <Layout>
+    <>
     <div className='error404'>
       <h1>404</h1>
       <h3>Oups! La page que vous demandez n'existe pas.</h3>
@@ -16,7 +15,7 @@ const Error404 = () => {
       <span className='linkreturnhomepage'>Retourner sur la page d'accueil</span>
     </NavLink>
     </div>
-    </Layout>
+    </>
   );
 };
 

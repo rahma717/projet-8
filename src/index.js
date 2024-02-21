@@ -7,6 +7,9 @@ import Error404 from './pages/Error404.jsx';
 import Home from './pages/Home';
 import APropos from './pages/APropos.jsx';
 import Logement from './pages/Logement.jsx';
+
+import './index.css'
+
 const HeaderFooterLayout = ({ children }) => {
   return (
     <>
