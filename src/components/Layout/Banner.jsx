@@ -4,7 +4,9 @@ import './Banner.css';
 function Banner({ img, text = null}) { 
     return (
     <div className='banner'>
+         {/* Affiche l'image avec la classe 'banner_img' et une alternative 'banner' */}
         <img className='banner_img' src={img} alt='banner'/>
+        {/* Affiche le texte si la prop 'text' est fournie */}
         {text && <p>{text}</p>}
     </div>
     

@@ -7,7 +7,9 @@ import './APropos.css';
 const APropos = () => {
   return (
         <main>
+          {/* Composant Banner avec une image pour la page À Propos */}
         <Banner img={BannerLogo} />
+        {/* Conteneur des sections de description avec des composants Collapse */}
         <div className="collapseAboutContainer">
         <Collapse
           title="Fiabilité"
