@@ -45,6 +45,9 @@
 .collapse_content-text.active {
     max-height: 1000px;
     opacity: 1; /* Ajustez la valeur en fonction de la hauteur maximale attendue */
+    list-style: none;
+    gap: 10px;
+    padding: 7px 5px;
 }
 .collapse_icon {
     width: 24px;

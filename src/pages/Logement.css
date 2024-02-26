@@ -1,15 +1,19 @@
 .main {
     width: '100%';
 }
-
+.logement_title_tags {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 main h1 {
     margin-top: 30px;
     color: #FF6060;
     font-size: 36px;
     font-style: normal;
     font-weight: 500;
-    line-height: 142.6%;
-    margin-left: 9px;
+    margin-bottom: 0;
+    
 }
 
 .location {
@@ -18,12 +22,9 @@ main h1 {
     font-style: normal;
     font-weight: 500;
     line-height: 142.6%;
-    margin-left: 9px;
+    margin-top: 10px;
 }
 
-.tags {
-    margin: 20px 0 0 9px;
-}
 
 .tag {
     width: 115px;
@@ -53,6 +54,7 @@ main h1 {
 .info-content {
     display: flex;
     justify-content: space-between;
+   
 }
 .rating-content {
     margin-top: 30px;
@@ -83,23 +85,26 @@ main h1 {
 }
 
 @media (max-width: 768px){
-   .info-content {
-    display: block;
-    margin: 0;
-   }
+  
 
    main h1 {
-        margin-top: 15px;
+        margin-left:0;
         color: #FF6060;
         font-size: 18px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 142.6%;
-        margin-right: 239px;
+        
     }
 
     .location {
         font-size: 14px;
+        margin-top: 0;
+    }
+    .logement_title_tags {
+        align-items: flex-start;
+       
+    }
+    .info-content {
+        flex-direction: column;
+        align-items: flex-start;
     }
     .tags {
         display: flex;
@@ -117,15 +122,12 @@ main h1 {
 
     .host-name {
         font-size: 12px;
-      
+        margin-top: -2px;
     }
-
     .rating-content {
         margin-top: 24px;
         width: 100%;
     }
-
-
     .collapses {
         display: flex;
         flex-direction:column;
@@ -134,6 +136,57 @@ main h1 {
     }
     .host-info {
         float: right;
+        margin-bottom: 0px;
     }
 
 }
+
+@media (min-width: 769px) and (max-width: 992px) {
+    main h1 {
+        font-size: 24px; 
+        margin-bottom: 10px;   
+    }
+    .location {
+        font-size: 16px; /* Ajustez la taille de la police pour le mode desktop */
+        margin-top: 5px; 
+    }
+   
+
+    .tags {
+        display: flex;
+    }
+
+    .tag {
+        width: 80px; 
+        height: 20px; 
+        font-size: 12px; 
+        margin-right: 15px; 
+    }
+
+    .host-picture {
+        width: 48px; 
+        height: 48px; 
+    }
+
+    .host-name {
+        font-size: 16px; 
+        margin-top: 0;
+        margin-right: 10px;
+    }
+
+    .rating-content {
+        
+        width: auto; 
+    }
+
+    .collapses {
+        gap: 20px; 
+    }
+
+    .host-info {
+        float: none; 
+        margin-bottom: 20px; 
+    }
+}
+
+

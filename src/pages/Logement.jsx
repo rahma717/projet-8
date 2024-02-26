@@ -48,7 +48,7 @@ export default function Logement() {
              {/* Composant Carrousel pour afficher les images du logement */}
             <Carrousel pictures={logement.pictures} />
             <div className="info-content">
-                <div>
+                <div className="logement_title_tags">
                     <h1>{logement.title}</h1>
                     <p className="location">{logement.location}</p>
                      {/* Affichage des tags associés au logement */}
@@ -72,8 +72,7 @@ export default function Logement() {
             <div className="collapses">
             <Collapse title="Description" content={logement.description} />
             <div className="separator"></div>
-            <Collapse title="Equipements" content={logement.equipments.map((equipment, index) => <p key={index}>{equipment}</p>)} />
+            <Collapse title="Equipements" content={logement.equipments.map((equipment, index) => <li key={index}>{equipment}</li>)} />
             </div>
         </main>
-    )
-}
+    ) }
